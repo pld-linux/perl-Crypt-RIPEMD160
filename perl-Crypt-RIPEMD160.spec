@@ -9,7 +9,8 @@ Summary(pl):	Modu³ Perla Crypt::RIPEMD160 - algorytm skrótu RIPEMD160
 Name:		perl-Crypt-RIPEMD160
 Version:	0.04
 Release:	3
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	132c1b74deabd6511726945373308699
