@@ -9,7 +9,7 @@ Summary:	Crypt::RIPEMD160 Perl module - RIPEMD160 message digest algorithm
 Summary(pl):	Modu³ Perla Crypt::RIPEMD160 - algorytm skrótu RIPEMD160
 Name:		perl-Crypt-RIPEMD160
 Version:	0.04
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
