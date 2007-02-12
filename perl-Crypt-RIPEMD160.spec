@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	RIPEMD160
 Summary:	Crypt::RIPEMD160 Perl module - RIPEMD160 message digest algorithm
-Summary(pl):	Modu³ Perla Crypt::RIPEMD160 - algorytm skrótu RIPEMD160
+Summary(pl.UTF-8):   ModuÅ‚ Perla Crypt::RIPEMD160 - algorytm skrÃ³tu RIPEMD160
 Name:		perl-Crypt-RIPEMD160
 Version:	0.04
 Release:	5
@@ -28,12 +28,12 @@ cryptographic hash function, designed by Hans Dobbertin, Antoon
 Bosselaers, and Bart Preneel. It is intended to be used as a secure
 replacement for the 128-bit hash functions MD4, MD5, and RIPEMD.
 
-%description -l pl
-Modu³ Crypt::RIPEMD160 pozwala na u¿ywanie algorytmu skrótu RIPEMD160
-z poziomu programów w Perlu. RIPEMD-160 jest 160-bitow±
-kryptograficzn± funkcj± mieszaj±c±, opracowan± przez Hansa Dobbertina,
-Antoona Bosselaersa i Barta Preneela. Ma byæ bezpiecznym zamiennikiem
-128-bitowych funkcji mieszaj±cych MD4, MD5 i RIPEMD.
+%description -l pl.UTF-8
+ModuÅ‚ Crypt::RIPEMD160 pozwala na uÅ¼ywanie algorytmu skrÃ³tu RIPEMD160
+z poziomu programÃ³w w Perlu. RIPEMD-160 jest 160-bitowÄ…
+kryptograficznÄ… funkcjÄ… mieszajÄ…cÄ…, opracowanÄ… przez Hansa Dobbertina,
+Antoona Bosselaersa i Barta Preneela. Ma byÄ‡ bezpiecznym zamiennikiem
+128-bitowych funkcji mieszajÄ…cych MD4, MD5 i RIPEMD.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
