@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	RIPEMD160
 Summary:	Crypt::RIPEMD160 Perl module - RIPEMD160 message digest algorithm
-Summary(pl.UTF-8):   Moduł Perla Crypt::RIPEMD160 - algorytm skrótu RIPEMD160
+Summary(pl.UTF-8):	Moduł Perla Crypt::RIPEMD160 - algorytm skrótu RIPEMD160
 Name:		perl-Crypt-RIPEMD160
 Version:	0.04
 Release:	5
