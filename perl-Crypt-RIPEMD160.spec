@@ -64,6 +64,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Crypt/RIPEMD160
 %dir %{perl_vendorarch}/auto/Crypt/RIPEMD160
 %{perl_vendorarch}/auto/Crypt/RIPEMD160/autosplit.ix
-%{perl_vendorarch}/auto/Crypt/RIPEMD160/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/RIPEMD160/*.so
 %{_mandir}/man3/*
