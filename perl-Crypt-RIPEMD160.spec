@@ -7,15 +7,14 @@
 Summary:	Crypt::RIPEMD160 Perl module - RIPEMD160 message digest algorithm
 Summary(pl.UTF-8):	Moduł Perla Crypt::RIPEMD160 - algorytm skrótu RIPEMD160
 Name:		perl-Crypt-RIPEMD160
-Version:	0.06
-Release:	9
+Version:	0.14
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f37eae17af81b230104f9d0aca1b2327
-Patch0:		%{name}-types.patch
-URL:		http://search.cpan.org/dist/Crypt-RIPEMD160/
+Source0:	https://www.cpan.org/authors/id/T/TO/TODDR/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	2178d0b23a67a9912877eb6ef2ae2d1c
+URL:		https://metacpan.org/dist/Crypt-RIPEMD160
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -36,7 +35,6 @@ Antoona Bosselaersa i Barta Preneela. Ma być bezpiecznym zamiennikiem
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%patch -P0 -p1
 
 %build
 %{__perl} Makefile.PL \
@@ -58,10 +56,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README rmd160/doc/*.html
+%doc Changes README.md rmd160/doc/*.html
 %{perl_vendorarch}/Crypt/RIPEMD160.pm
 %{perl_vendorarch}/Crypt/RIPEMD160
 %dir %{perl_vendorarch}/auto/Crypt/RIPEMD160
-%{perl_vendorarch}/auto/Crypt/RIPEMD160/autosplit.ix
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/RIPEMD160/*.so
 %{_mandir}/man3/*
